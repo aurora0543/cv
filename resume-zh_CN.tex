@@ -1,0 +1,159 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+% \usepackage{geometry}
+% \geometry{a4paper,left=2cm,right=2cm,top=1cm,bottom=1cm}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+%% 基本信息
+\name{李伯乾}
+\basicInfo{
+  \email{liboqian0543@outlook.com} \textperiodcentered\ 
+  \phone{198-195-43890} \textperiodcentered\ 
+  \faCalendar{出生年月：2000.10} \textperiodcentered\ 
+  \faGroup {性别：男} \
+  }
+
+%% 教育背景
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{天津工业大学}, 天津}{2019 -- 至今}
+\textit{在读本科生}\ 通信工程, 预计 2023 年 6 月毕业 \\ 
+\textbf{关于成绩} 
+\begin{itemize}
+    \item \textit{GPA：}\ 3.11（总分4.0）
+    \item \textit{主修课程：}\ 嵌入式系统（95）、信号与系统（86）、通信原理（72）、控制理论（78）、数据通信（82）
+    \item \textit{附修课程：}\ 数学建模、机器学习与大数据处理
+    \item \textit{英语水平：}\ 通过CET6级
+\end{itemize}
+
+%% 项目经历
+\section{\faFlask\ 科研经历}
+\datedsubsection{\textbf{眼底图像拼接}}{2021年6月 -- 2021年9月}
+\begin{onehalfspacing}
+参与研究生实验室项目，医学影像处理
+\begin{itemize}
+  \item 使用机器学习算法实现眼底图像拼接，将多个角度拍摄的局部眼底图像合成为一张全景图片
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于TOI的心率血压测量方法研究}}{2022年11月 -- 至今}
+\begin{onehalfspacing}
+毕业设计，生理信息采集
+\begin{itemize}
+  \item 使用摄像头采集一段人脸视频，在MATLAB平台上开发视频处理算法，从面部视频中提取出心率和血压信息
+  \item 研究基于TOI的心率血压测量方法准确度、精度和误差影响因素
+  \item 使用机器学习算法优化测量结果测量结果
+\end{itemize}
+\end{onehalfspacing}
+
+%% 学生工作
+\section{\faBriefcase\ 学生工作}
+\datedsubsection{\textbf{国际教育学院学生会宣传部}\ 干事}{2019年9月 -- 2020年9月}
+\begin{onehalfspacing}
+    \begin{itemize}
+      \item 负责天津工业大学国际教育学院公众号运营，其中包括定期撰写文案、拍摄活动照片、剪辑视频
+      \item 与外国留学生进行工作对接、曾参与英语翻译工作
+    \end{itemize}
+    \end{onehalfspacing}
+\datedsubsection{\textbf{班干部}\ 宣传委员}{2019年9月 -- 2021年9月}
+\datedsubsection{\textbf{班干部}\ 团支部书记}{2021年9月 -- 至今}
+
+%% 所获荣誉
+\section{\faHeartO\ 所获荣誉}
+\datedsubsection{\textbf{优秀共青团员}}{2019 年12 月}
+\datedsubsection{\textbf{优秀班干部}}{2020 年12 月}
+\datedsubsection{\textbf{创新杯竞赛（校级）}\ 三等奖}{2020 年3 月}
+\datedsubsection{\textbf{师生朗诵比赛（天津市市级）}\ 二等奖}{2020 年8 月}
+\datedsubsection{\textbf{节能减排竞赛（天津市市级）}\ 三等奖}{2021 年5 月}
+\datedsubsection{\textbf{新工科竞赛（天津市市级）}\ 三等奖}{2021 年12 月}
+
+%% 自我评价
+\section{\faInfo\ 自我评价}
+\begin{onehalfspacing}
+    \large 我喜欢挑战新事物并且愿意帮助他人。我有良好的服务态度、沟通能力和团队合作能力，以及强烈的求知欲望，对新技术和知识充满热情。我具备独立学习和问题分析解决的能力，有责任心和自信心，能够确定自己的发展方向，并快速适应变化。
+\end{onehalfspacing}
+
+
+\newpage 
+\begin{center}
+\LARGE 附录
+\end{center}
+
+
+\section{\faFlag\ 兴趣爱好}
+\begin{itemize}[parsep=0.5ex]
+  \item 热爱表演。学院合唱团的成员，曾参加过学校级以及天津市级的合唱比赛；节目主持，参加过演讲和朗诵比赛，并取得了优异的成绩
+  \item 电子爱好者，有参与开源项目研发的工作经历
+\end{itemize}
+
+\section{\faCheck\ 项目经历}
+\datedsubsection{\textbf{基于51单片机的输液报警装置}}{2019年12月 -- 2020年3月}
+\begin{onehalfspacing}
+竞赛项目，嵌入式开发
+\begin{itemize}
+  \item 通过光电传感器测量输液状态，一但输液管中液体流完则报警
+  \item 判断液体流速，并根据用户设定了速度，通过舵机控制输液阀的闭合度
+\end{itemize}
+\end{onehalfspacing}
+\datedsubsection{\textbf{自动驾驶汽车}}{2020年10月 -- 2021年1月}
+\begin{onehalfspacing}
+参与研究生实验室项目，嵌入式开发
+\begin{itemize}
+  \item 硬件控制模块设计，与核心模块进行通信，执行相应控制命令
+  \item 灯光系统、转向系统、驱动系统的控制
+\end{itemize}
+\end{onehalfspacing}
+\datedsubsection{\textbf{远程幅频特性测试装置}}{2021年7月 -- 2021年10月}
+\begin{onehalfspacing}
+全国大学生电子设计大赛，嵌入式开发、数字信号处理
+\begin{itemize}
+  \item 使用stm32f4系列单片机和DDS模块对待测元器件实现扫频
+  \item 通过AD模块测量出相应的幅频特性
+  \item 将数据传入接收端并绘制幅频特性曲线图像
+\end{itemize}
+\end{onehalfspacing}
+\datedsubsection{\textbf{基于树莓派的智能家居系统设计}}{2021年10月 -- 2022年10月}
+\begin{onehalfspacing}
+个人项目，嵌入式开发、互联网开发
+\begin{itemize}
+  \item 基于linux设计网页前端，作为智能家居的主交互界面，用于现实各设备运行状态以及控制设备
+  \item 使用python、c语言编写后端程序，实现树莓派控制电视、灯具、空调等设备
+\end{itemize}
+\end{onehalfspacing}
+
+
+
+\section{\faFile\ 实习经历}
+\datedsubsection{\textbf{华为青年开发者训练营}}{2020年8月 -- 2020年9月}
+\begin{onehalfspacing}
+学习基于java、php的网页开发相关知识
+\begin{itemize}
+  \item 服务器运行维护
+  \item 微信公众号后台维护
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faCogs\ 专业技能}
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: c、python、matlab
+  \item 平台: 嵌入式开发、机器学习
+\end{itemize}
+
+\section{\faFlickr\ 其他}
+\begin{onehalfspacing}
+    \begin{itemize}
+      \item \faGithub{\href{https://github.com/aurora0543}{ 个人主页：https://github.com/aurora0543}}
+    \end{itemize}
+    \end{onehalfspacing}
+
+\end{document}
